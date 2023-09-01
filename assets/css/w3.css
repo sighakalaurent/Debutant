@@ -1,0 +1,235 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav {
+    padding: 1% 11px;
+    width: 50%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 3%;
+}
+
+.icon_recherche {
+    width: 40%;
+    text-align: end;
+}
+
+img {
+    width: 24px;
+    margin: 2% 2% 0 0;
+}
+
+.img_banniere img {
+    width: 104%;
+    height: 600px;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.ville-description {
+    position: relative;
+    text-align: center;
+    bottom: 109PX;
+    color: white;
+}
+
+.ville-description ville {
+    margin: 0 0 29PX 0;
+}
+
+.the-band {
+    width: 835px;
+    text-align: justify;
+    margin: auto;
+}
+
+.the-band h1 {
+    text-align: center;
+}
+
+.band-members section {
+    display: inline-block;
+    padding: 50px;
+    width: 20%;
+    margin: auto;
+
+}
+.band-members section figcaption{
+    margin: 16% 69%;
+}
+
+.band-members section img {
+    width: 154px;
+    height: 154px;
+    border-radius: 7px;
+
+}
+
+.tour-dates {
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: 0px;
+    padding: 54px;
+    padding-left: 651px;
+}
+
+.bacground-tour {
+    background-color: black;
+    width: 103%;
+}
+
+.mois {
+    width: 50%;
+    background-color: white;
+    color: black;
+    margin-left: 369px;
+    font-size: 24px;
+}
+
+.mois span {
+    border-bottom: 1px black solid;
+    width: 100%;
+    padding-bottom: 3px;
+    display: block;
+
+
+
+}
+
+.villes {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+
+.villes section {
+    background-color: white;
+    margin: 2% 0.5% 122px 0.5%;
+
+}
+.mois-villes{
+    justify-content: center;
+}
+
+.villes section img {
+    width: 250px;
+    height: 200px;
+    margin-top: 0;
+    margin-right: 0;
+
+}
+.villes section p{
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.villes section button{
+    margin: 15px 5px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+/* champs contact */
+.contact {
+    text-align: center;
+}
+
+.contact span{
+    font-style: italic;
+    opacity: 0.4;
+}
+
+
+
+.identsenvoie{
+font-size: 25px;
+
+}
+
+.info-ident{
+    display: flex;
+    justify-content:space-around;
+    padding:5%;
+    
+}
+.contact span {
+    text-align: center;
+   
+}
+.logo{
+    display: flex;
+}
+.info-adresse{
+    font-size: 23px;
+    margin-left: 79px;
+    margin-bottom: auto;
+}
+.identifiant1 form input{
+    padding: 8px 5px 8px 3px;
+    font-size: 22px;
+
+}
+.identifiant2 form input{
+    padding:8px 3px 8px 3px;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.envoie form input{
+    background-color: black;
+    padding: 8px 18px 8px 15px;
+    /* margin-left:  506px; */
+    margin: 16px 0px 16px 499px;
+    color: white;
+    text-align: center;
+}
+.parag{
+    margin-left: 20px;
+}
+.image-map img {
+    width: 100%;
+}
+
+
+.icone-dereseau{
+    display: flex;
+}
+
+.icones{
+    width: 50px;
+    height: 50px;
+    margin-top: 66px;
+    color: rgba(245, 238, 238, 0.926);
+    border: 5px;
+}
+.enfin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+
+
